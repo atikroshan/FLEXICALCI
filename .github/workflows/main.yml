@@ -5,6 +5,10 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    # We add 'defaults' here to tell the action to always work inside your sub-folder
+    defaults:
+      run:
+        working-directory: billing-calculator
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -21,4 +25,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: app-debug
-          path: app/build/outputs/apk/debug/app-debug.apk
+          # We point to the path inside your folder
+          path: billing-calculator/app/build/outputs/apk/debug/app-debug.apk
