@@ -1,0 +1,6 @@
+{
+  "name": "Billing Calculator",
+  "description": "An elegant, cross-screen adaptive billing calculator for accurate business estimates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

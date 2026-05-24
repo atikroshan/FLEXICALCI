@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Calculator Symbol Group with drop shadow background -->
+    <path
+        android:fillColor="#081411"
+        android:pathData="M35,27 h40 c4,0 8,4 8,8 v44 c0,4 -4,8 -8,8 h-40 c-4,0 -8,-4 -8,-8 v-44 c0,-4 4,-8 8,-8 z" />
+    <!-- Calculator Base Frame -->
+    <path
+        android:fillColor="#12c090"
+        android:pathData="M34,24 h40 c4,0 8,4 8,8 v44 c0,4 -4,8 -8,8 h-40 c-4,0 -8,-4 -8,-8 v-44 c0,-4 4,-8 8,-8 z" />
+    <!-- Display Screen -->
+    <path
+        android:fillColor="#0e2a22"
+        android:pathData="M38,30 h32 v10 h-32 z" />
+    <!-- Screen Accent/Text -->
+    <path
+        android:fillColor="#12c090"
+        android:pathData="M62,33 h5 v4 h-5 z M52,35 h8 v2 h-8 z" />
+    <!-- Grid elements for keys (Row 1) -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M40,46 h6 v6 h-6 z M51,46 h6 v6 h-6 z M62,46 h6 v6 h-6 z" />
+    <!-- Grid elements for keys (Row 2) -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M40,56 h6 v6 h-6 z M51,56 h6 v6 h-6 z M62,56 h6 v6 h-6 z" />
+    <!-- Grid elements for keys (Row 3) -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M40,66 h6 v6 h-6 z M51,66 h6 v6 h-6 z" />
+    <!-- Equal sign / long action button -->
+    <path
+        android:fillColor="#081411"
+        android:pathData="M62,66 h6 v6 h-6 z" />
+</vector>
